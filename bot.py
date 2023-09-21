@@ -12,7 +12,7 @@ teamspy=Client(
 )
 
 CHAT_ID = [int(teamspy) for teamspy in environ.get("CHAT_ID", None).split()]
-TEXT = environ.get("APPROVED_WELCOME_TEXT", "Hello {mention}\nWelcome To {title}\n\nYour Auto Approved")
+TEXT = environ.get("APPROVED_WELCOME_TEXT", "Hello {mention}\nWelcome To {title}\n\nTeam SPY")
 APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
 @teamspy.on_message(filters.private & filters.command(["start"]))
