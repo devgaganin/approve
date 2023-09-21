@@ -1,4 +1,4 @@
-# <span style="font-size:36px;">Awesome Auto-Approving Bot</span>
+# <span style="font-size:36px;">Awesome Auto-Approving Bot by Gagan</span>
 
 Welcome to the Awesome Auto-Approving Bot project! This bot is designed to streamline the process of approving join requests effortlessly. Whether you're managing a community or group, this bot has got you covered.
 
@@ -20,3 +20,4 @@ To get started with the Awesome Auto-Approving Bot, follow these simple steps:
 
    ```bash
    git clone https://github.com/amthespy/approve/
+2. **Rest ask on our Telegram Community https://t.me/+W7557it1iB9kMDU1**
