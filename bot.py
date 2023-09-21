@@ -11,7 +11,7 @@ teamspy=Client(
     api_hash = environ["d1b3b15126c47dd4cb491553ee1db910"]
 )
 
-CHAT_ID = [int(teamspy) for teamspy in environ.get("CHAT_ID", None).split()]
+CHAT_ID = [int(teamspy) for teamspy in environ.get("CHAT_ID", '-1001938200996').split()]
 TEXT = environ.get("APPROVED_WELCOME_TEXT", "Hello {mention}\nWelcome To {title}\n\nTeam SPY")
 APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 
