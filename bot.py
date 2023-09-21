@@ -18,9 +18,9 @@ APPROVED = environ.get("APPROVED_WELCOME", "on").lower()
 @teamspy.on_message(filters.private & filters.command(["start"]))
 async def start(client: teamspy, message: Message):
     approvedbot = await client.get_me() 
-    button = [[ InlineKeyboardButton("📦 Repo", url="https://github.com/PR0FESS0R-99/Auto-Approved-Bot"), InlineKeyboardButton("Updates 📢", url="t.me/Mo_Tech_YT") ],
+    button = [[ InlineKeyboardButton("📦 Repo", url="https://github.com/amthespy/approve/"), InlineKeyboardButton("Updates 📢", url="https://t.me/+W7557it1iB9kMDU1") ],
               [ InlineKeyboardButton("➕️ Add Me To Your Chat ➕️", url=f"http://t.me/{approvedbot.username}?startgroup=botstart") ]]
-    await client.send_message(chat_id=message.chat.id, text=f"**__Hello {message.from_user.mention} Iam Auto Approver Join Request Bot Just [Add Me To Your Group Channnl](http://t.me/{approvedbot.username}?startgroup=botstart) || Repo https://github.com/PR0FESS0R-99/Auto-Approved-Bot||**__", reply_markup=InlineKeyboardMarkup(button), disable_web_page_preview=True)
+    await client.send_message(chat_id=message.chat.id, text=f"**__Hello {message.from_user.mention} I am Auto Approver Join Request Bot designed and maintained by Team SPY Just [Add Me To Your Group Channnl](http://t.me/{approvedbot.username}?startgroup=botstart) || Repo https://https://github.com/amthespy/approve/||**__", reply_markup=InlineKeyboardMarkup(button), disable_web_page_preview=True)
 
 @teamspy.on_chat_join_request((filters.group | filters.channel) & filters.chat(CHAT_ID) if CHAT_ID else (filters.group | filters.channel))
 async def autoapprove(client: teamspy, message: ChatJoinRequest):
