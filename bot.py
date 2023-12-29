@@ -6,7 +6,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message, 
 
 teamspy=Client(
     "Auto Approved Bot",
-    bot_token = environ["6464843098:AAEyLMnun1Jf2vazrSHHWujshm9R4HS0IAY"],
+    bot_token = environ["6941701784:AAGToFyQaFMdtRH7QlPWOqZKO9rAO4mWigw"],
     api_id = int(environ["24490919"]),
     api_hash = environ["d1b3b15126c47dd4cb491553ee1db910"]
 )
